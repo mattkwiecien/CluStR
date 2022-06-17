@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 import scipy.stats as stats
-from matplotlib.ticker import LogFormatter, ScalarFormatter, FormatStrFormatter
+from matplotlib.ticker import LogFormatter, ScalarFormatter
 #import seaborn as ssb
 #plt.style.use('seaborn')
 #matplotlib.use('Agg')

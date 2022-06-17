@@ -10,6 +10,6 @@ setup(
     packages=['clustr'],
     install_requires=[
         'astropy', 'corner', 'PyPDF2', 'linmix', 'rpy2',
-        'pyfiglet'
+        'pyfiglet', 'numpy'
     ]
 )

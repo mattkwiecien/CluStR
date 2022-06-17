@@ -8,9 +8,6 @@
 /linmix
 /Test_/
 /Test_plots/
-clustr.pyc
-plotlib.pyc
-reglib.pyc
 /__pycache__/
 *.txt
 /Catalogs

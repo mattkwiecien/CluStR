@@ -3,7 +3,9 @@ import numpy as np
 import numpy.random as npr
 from scipy import stats
 import scipy.optimize as sop
-from inputParameters import beta1, beta2
+# Not sure what this is from, but it's missing currently.
+# from inputParameters import beta1, beta2
+beta1, beta2 = 1, 1
 
 npr.seed(800)
 def scatter_cal(x,y,slope,intercept,dof):
@@ -156,7 +158,7 @@ def inferScalingRelationThroughHidenVaribale(\
 """
 
 def makeLinearRegression(xObs,yObs,xerr,yerr):
-   print len(xObs), len(yObs), len(xerr), len(yerr)
+   print(len(xObs), len(yObs), len(xerr), len(yerr))
    delta = np.ones(len(xerr)); xycov = np.zeros(len(xerr))
    model = linmix.LinMix(xObs,yObs,xerr,yerr,xycov,delta,2,2)
    model.run_mcmc(5000, 10000, silent=False)
