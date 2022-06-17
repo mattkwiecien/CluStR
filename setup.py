@@ -7,5 +7,9 @@ setup(
     author='Paige, Jose, Spencer',
     author_email='',
     url='https://www.python.org/sigs/distutils-sig/',
-    packages=['clustr']
+    packages=['clustr'],
+    install_requires=[
+        'astropy', 'corner', 'PyPDF2', 'linmix', 'rpy2',
+        'pyfiglet'
+    ]
 )

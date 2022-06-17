@@ -14,3 +14,5 @@ reglib.pyc
 /__pycache__/
 *.txt
 /Catalogs
+clustr.egg-info/
+*.pyc
